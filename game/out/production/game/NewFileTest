@@ -1,0 +1,37 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns6:GetPersonEBM xmlns:ns10="urn:oasis:names:tc:xacml:2.0:context:schema:cd:04"
+                          xmlns:ns11="urn:oasis:names:tc:xacml:2.0:policy:schema:cd:04"
+                          xmlns:ns12="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/LoanApplication/V1"
+                          xmlns:ns13="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/PersonCreditRisk/V1"
+                          xmlns:ns14="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/InvestmentContractOrder/V1"
+                          xmlns:ns15="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/ComplianceControl/V1"
+                          xmlns:ns16="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/BiometricData/V1"
+                          xmlns:ns17="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/BankAccount/V1"
+                          xmlns:ns2="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/BankCard/V1"
+                          xmlns:ns3="http://www.vtb24.ru/EnterpriseObjectLibrary/Core/Common/V1"
+                          xmlns:ns5="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/CustomerParty/V1"
+                          xmlns:ns6="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Services/Person/V2"
+                          xmlns:ns7="http://xmlns.oracle.com/EnterpriseObjects/Core/Common/V2"
+                          xmlns:ns8="http://schemas.xmlsoap.org/ws/2003/03/addressing"
+                          xmlns:ns9="http://xmlns.oracle.com/EnterpriseObjects/Core/Custom/Common/V2">
+            <ns7:EBMHeader>
+                <ns7:CreationDateTime>2020-12-22T17:03:47.146458</ns7:CreationDateTime>
+                <ns7:Sender>
+                    <ns7:ID>SRB</ns7:ID>
+                    <ns7:SenderMessageID>faa949dd-f033-47a6-ae94-355556581c2d</ns7:SenderMessageID>
+                </ns7:Sender>
+                <ns7:Target>
+                    <ns7:ID>MDM</ns7:ID>
+                </ns7:Target>
+            </ns7:EBMHeader>
+            <ns6:DataArea>
+                <ns3:PartyIdentification>
+                    <ns3:ID>1540918843</ns3:ID>
+                </ns3:PartyIdentification>
+                <ns6:GetFullBlackList>allBlackList</ns6:GetFullBlackList>
+            </ns6:DataArea>
+        </ns6:GetPersonEBM>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
