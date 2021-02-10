@@ -1,0 +1,53 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns6:MatchPersonInBlackListsEBM xmlns:ns10="urn:oasis:names:tc:xacml:2.0:context:schema:cd:04"
+                                        xmlns:ns11="urn:oasis:names:tc:xacml:2.0:policy:schema:cd:04"
+                                        xmlns:ns12="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/LoanApplication/V1"
+                                        xmlns:ns13="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/PersonCreditRisk/V1"
+                                        xmlns:ns14="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/InvestmentContractOrder/V1"
+                                        xmlns:ns15="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/ComplianceControl/V1"
+                                        xmlns:ns16="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/BiometricData/V1"
+                                        xmlns:ns17="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/BankAccount/V1"
+                                        xmlns:ns2="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/BankCard/V1"
+                                        xmlns:ns3="http://www.vtb24.ru/EnterpriseObjectLibrary/Core/Common/V1"
+                                        xmlns:ns5="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Model/CustomerParty/V1"
+                                        xmlns:ns6="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Services/Person/V2"
+                                        xmlns:ns7="http://xmlns.oracle.com/EnterpriseObjects/Core/Common/V2"
+                                        xmlns:ns8="http://schemas.xmlsoap.org/ws/2003/03/addressing"
+                                        xmlns:ns9="http://xmlns.oracle.com/EnterpriseObjects/Core/Custom/Common/V2">
+            <ns7:EBMHeader>
+                <ns7:CreationDateTime>2020-12-21T17:06:00.005728</ns7:CreationDateTime>
+                <ns7:Sender>
+                    <ns7:ID>SRB</ns7:ID>
+                    <ns7:SenderMessageID>9cc1349e-98a1-4990-96fd-b8e246a820bd</ns7:SenderMessageID>
+                </ns7:Sender>
+                <ns7:Target>
+                    <ns7:ID>MDM</ns7:ID>
+                </ns7:Target>
+            </ns7:EBMHeader>
+            <ns6:DataArea>
+                <ns5:CustomerParty>
+                    <ns3:Person>
+                        <ns3:BirthDateTime>1995-01-01</ns3:BirthDateTime>
+                        <ns3:BirthPlace>615156</ns3:BirthPlace>
+                        <ns3:PersonName>
+                            <ns3:FullName>???????????? ?????? ??????????????????????</ns3:FullName>
+                        </ns3:PersonName>
+                        <ns3:TaxPayerIdentificationNumber>818584344623</ns3:TaxPayerIdentificationNumber>
+                        <ns3:PersonDocumentIdentity>
+                            <ns3:Series>1566</ns3:Series>
+                            <ns3:Number>155615</ns3:Number>
+                        </ns3:PersonDocumentIdentity>
+                        <ns3:LocationReference>
+                            <ns3:Address>
+                                <ns3:FullAddress>115522, ?? ????????????, ???????????????????????? ????-??, ?? 1
+                                </ns3:FullAddress>
+                            </ns3:Address>
+                        </ns3:LocationReference>
+                    </ns3:Person>
+                </ns5:CustomerParty>
+            </ns6:DataArea>
+        </ns6:MatchPersonInBlackListsEBM>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

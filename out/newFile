@@ -1,0 +1,47 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <p:MatchPersonInBlackListsResponseEBM xmlns:cv1="http://www.vtb24.ru/EnterpriseObjectLibrary/Core/Common/V1"
+                                              xmlns:cv2="http://xmlns.oracle.com/EnterpriseObjects/Core/Common/V2"
+                                              xmlns="http://www.vtb24.ru/EnterpriseObjectLibrary/Business/Common/Services/Person/V2">
+            <cv2:EBMHeader>
+                <cv2:CreationDateTime>2020-09-10T17:15:00</cv2:CreationDateTime>
+                <cv2:Sender>
+                    <cv2:ID>SRB-Identifier</cv2:ID>
+                    <cv2:SenderMessageID>49463f8b-338f-40b7-907b-5d58cbc26bda</cv2:SenderMessageID>
+                </cv2:Sender>
+                <cv2:Target>
+                    <cv2:ID>MDM-Identifier</cv2:ID>
+                </cv2:Target>
+            </cv2:EBMHeader>
+            <p:DataArea>
+                <p:MatchCustomerCandidate>
+                    <cv1:Person>
+                        <cv1:BirthDateTime>1983-06-23</cv1:BirthDateTime>
+                        <cv1:PersonName>
+                            <cv1:FullName>???????????? ?????????????? ??????????????</cv1:FullName>
+                        </cv1:PersonName>
+                        <cv1:TaxPayerIdentificationNumber>772756377812</cv1:TaxPayerIdentificationNumber>
+                        <cv1:PersonDocumentIdentity>
+                            <cv1:Series>9713</cv1:Series>
+                            <cv1:Number>166970</cv1:Number>
+                        </cv1:PersonDocumentIdentity>
+                        <cv1:LocationReference>
+                            <cv1:Address>
+                                <cv1:FullAddress>??. ????????????????????, ????. 12</cv1:FullAddress>
+                            </cv1:Address>
+                        </cv1:LocationReference>
+                    </cv1:Person>
+                    <cv1:BlackList>
+                        <cv1:BlackListName>cm.ClientSegmentType.35</cv1:BlackListName>
+                    </cv1:BlackList>
+                    <cv1:BlackList>
+                        <cv1:BlackListName>cm.ClientSegmentType.54</cv1:BlackListName>
+                    </cv1:BlackList>
+                    <p:MatchScore>98</p:MatchScore>
+                </p:MatchCustomerCandidate>
+            </p:DataArea>
+        </p:MatchPersonInBlackListsResponseEBM>
+    </soap:Body>
+</soap:Envelope>
+
